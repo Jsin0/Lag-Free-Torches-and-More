@@ -2,9 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationRemove">
 			  <xpath>Defs/ThingDef[
-				defName = "VBY_Lantern" or
-				defName = "VBY_Ishidoro" or
-				defName = "VBY_Andon"
+				defName = "TorchLamp"
 				]/comps/li[@Class="CompProperties_Refuelable"]
 			  </xpath>
 	</Operation>

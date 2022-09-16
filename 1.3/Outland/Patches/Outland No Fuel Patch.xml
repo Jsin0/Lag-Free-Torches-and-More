@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		  <li>Outland - Core</li>
-		</mods>
-		<match Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationRemove">
 			  <xpath>Defs/ThingDef[
 				defName = "Outland_EndTableWithLamp" or
 				defName = "Outland_OilStreetLamp" or
-				defName = "Outland_OilWallLanterns" or
 				defName = "Outland_WallSconce" or
 				defName = "Outland_OilLantern"
 				]/comps/li[@Class="CompProperties_Refuelable"]
+			  </xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+			  <xpath>Defs/ThingDef[@Name="OutlandOilWallLanternBase"]/comps/li[@Class="CompProperties_Refuelable"]
 			  </xpath>
 			</li>
 			<li Class="PatchOperationRemove" MayRequire="neronix17.outland.eastbornempire">
@@ -23,6 +22,5 @@
 			  </xpath>
 			</li>
 		</operations>
-		</match>
 	</Operation>
 </Patch>
