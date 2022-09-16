@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<loadFolders>
+	 <v1.3>
+		 <li>Common</li>
+		 <li>1.3</li>
+		 <li IfModActive="mlie.apothecary">Apothecary</li>
+		 <li IfModActive="heis.edo.themed.expansion">Edo Themed Expansion</li>
+		 <li IfModActive="barsimmon.originalbyvagabond.fantasygoblins">Fantasy Goblins Updated</li>
+		 <li IfModActive="solaris.furniturebase">GloomyFurniture</li>
+		 <li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+		 <li IfModActive="mlie.lordoftherimsdwarves">Lord of the Rims - Dwarves</li>
+		 <li IfModActive="mlie.lordoftherimselves">Lord of the Rims - Elves</li>
+		 <li IfModActive="mlie.lordoftherimsthethirdage">Lord of the Rims - The Third Age</li>
+		 <li IfModActive="dankpyon.medieval.overhaul">Medieval Overhaul</li>
+		 <li IfModActive="vindar163.medievalhtimes">Medieval Times</li>
+		 <li IfModActive="vindar.medievaltimes">Medieval Times</li>
+		 <li IfModActive="gotgass.medievaltimesnonan">Medieval Times</li>
+		 <li IfModActive="neronix17.outland.core">Outland</li>
+		 <li IfModActive="sargoskar.racetotherim">Race to the Rim</li>
+		 <li IfModActive="ludeon.rimworld.royalty">Royalty</li>
+		 <li IfModActive="japanstyle.velcroboy333">Velcroboy's Japanese Revival</li>
+		 <li IfModActive="oskarpotocki.vanillafactionsexpanded.medievalmodule">VFE - Medieval</li>
+		 <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">VFE - Settlers</li>
+		 <li IfModActive="hauvega.retromod.walltorchesexpanded">Wall Torches Expanded</li>
+		 <li IfModActive="hauvega.retromod.walltorchesexpandedeasy">Wall Torches Expanded</li>
+	 </v1.3>
+</loadFolders>
