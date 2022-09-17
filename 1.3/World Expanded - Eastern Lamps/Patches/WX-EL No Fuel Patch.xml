@@ -7,7 +7,7 @@
 			</li>
 			<li Class="PatchOperationFindMod">
 				<mods>
-					<li>Eastern Lamps Consolidation</li>
+					<li>Simple Eastern Lamp</li>
 				</mods>
 				<nomatch Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[
